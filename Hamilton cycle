@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Py202109 
-Hitesh202085
-/
-ADA_Lab
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-ADA_Lab/Program_9.py /
-@Hitesh202085
-Hitesh202085 Program 9 submission
-Latest commit faf9e5b 3 days ago
- History
- 1 contributor
-43 lines (33 sloc)  1.26 KB
-
 source = int(input("Enter Source Vertex: "))
 num_vertices = int(input("Enter Number of vertices: "))
 num_edges = int(input("Enter Number of edges: "))
@@ -69,18 +41,3 @@ def hamiltonion_cycle(matrix,source,vertices,visited,path=[]):
     path.pop()
 
 hamiltonion_cycle(adjacency_matrix,source,num_vertices,visited)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-ADA_Lab/Program_9.py at main · Hitesh202085/ADA_Lab
